@@ -1,454 +1,704 @@
-<!DOCTYPE html><html class="no-js" lang="zxx"><head>
-   <meta charset="utf-8">
-   <meta http-equiv="x-ua-compatible" content="ie=edge">
-   <title>Interno – Architecture & Interior HTML Template</title>
-   <meta name="description" content="">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+<html class="no-js" lang="zxx">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>Interno – Architecture & Interior HTML Template</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-   <!-- Place favicon.ico in the root directory -->
-   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
 
-   <!-- CSS here -->
-   <link rel="stylesheet" href="css/bootstrap.css">
-   <link rel="stylesheet" href="css/animate.css">
-   <link rel="stylesheet" href="css/swiper-bundle.css">
-   <link rel="stylesheet" href="css/slick.css">
-   <link rel="stylesheet" href="css/magnific-popup.css">
-   <link rel="stylesheet" href="css/font-awesome-pro.css">
-   <link rel="stylesheet" href="css/spacing.css">
-   <link rel="stylesheet" href="css/custom-animation.css">
-   <link rel="stylesheet" href="css/main.css">
-</head>
+        <!-- CSS here -->
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+        <link rel="stylesheet" href="css/swiper-bundle.css" />
+        <link rel="stylesheet" href="css/slick.css" />
+        <link rel="stylesheet" href="css/magnific-popup.css" />
+        <link rel="stylesheet" href="css/font-awesome-pro.css" />
+        <link rel="stylesheet" href="css/spacing.css" />
+        <link rel="stylesheet" href="css/custom-animation.css" />
+        <link rel="stylesheet" href="css/main.css" />
+    </head>
 
-<body>
-
-   <!-- pre loader area start -->
-   <div id="loading">
-      <div id="loading-center">
-         <div id="loading-center-absolute">
-            <div class="object" id="object_four"></div>
-            <div class="object" id="object_three"></div>
-            <div class="object" id="object_two"></div>
-            <div class="object" id="object_one"></div>
-         </div>
-      </div>
-   </div>
-   <!-- pre loader area end -->
-
-   <!-- back to top start -->
-   <div class="back-to-top-wrapper">
-      <button id="back_to_top" type="button" class="back-to-top-btn">
-         <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M11 6L6 1L1 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-         </svg>
-      </button>
-   </div>
-   <!-- back to top end -->
-
-   <!-- search popup start -->
-   <div class="search__popup d-none">
-      <div class="container">
-         <div class="row">
-            <div class="col-xxl-12">
-               <div class="search__wrapper">
-                  <div class="search__top d-flex justify-content-between align-items-center">
-                     <div class="search__logo">
-                        <a href="index.html">
-                           <img src="images/logo-white.png" alt="">
-                        </a>
-                     </div>
-                     <div class="search__close">
-                        <button type="button" class="search__close-btn search-close-btn">
-                           <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M17 1L1 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                              <path d="M1 1L17 17" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                           </svg>
-                        </button>
-                     </div>
-                  </div>
-                  <div class="search__form">
-                     <form action="#">
-                        <div class="search__input">
-                           <input class="search-input-field" type="text" placeholder="Type here to search...">
-                           <span class="search-focus-border"></span>
-                           <button type="submit">
-                              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                 <path d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                                 <path d="M19.0002 19.0002L17.2002 17.2002" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
-                              </svg>
-                           </button>
-                        </div>
-                     </form>
-                  </div>
-               </div>
+    <body>
+        <!-- pre loader area start -->
+        <div id="loading">
+            <div id="loading-center">
+                <div id="loading-center-absolute">
+                    <div class="object" id="object_four"></div>
+                    <div class="object" id="object_three"></div>
+                    <div class="object" id="object_two"></div>
+                    <div class="object" id="object_one"></div>
+                </div>
             </div>
-         </div>
-      </div>
-   </div>
-   <!-- search popup end -->
+        </div>
+        <!-- pre loader area end -->
 
-   <!-- tp-offcanvus-area-start -->
-   <div class="tpoffcanvas-area">
-      <div class="tpoffcanvas">
-         <div class="tpoffcanvas__close-btn">
-            <button class="close-btn"><i class="fal fa-times"></i></button>
-         </div>
-             <div class="tpoffcanvas__logo">
-            <a href="index.html">
-               <img src="images/logo-white.png" alt="">
-            </a>
-         </div>
-         <div class="tpoffcanvas__title">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima incidunt eaque ab cumque, porro maxime
-               autem sed.</p>
-         </div>
-         <div class="tp-main-menu-mobile d-xl-none"></div>
-         <div class="tpoffcanvas__contact-info">
-            <div class="tpoffcanvas__contact-title">
-               <h5>Contact us</h5>
-            </div>
-            <ul>
-               <li>
-                  <i class="fa-light fa-location-dot"></i>
-                  <a href="https://www.google.com/maps/@23.8223586,90.3661283,15z" target="_blank">Melbone st,
-                     Australia, Ny 12099</a>
-               </li>
-               <li>
-                  <i class="fas fa-envelope"></i>
-                  <a href="mailto:solaredge@gmail.com">themepure@gmail.com</a>
-               </li>
-               <li>
-                  <i class="fal fa-phone-alt"></i>
-                  <a href="tel:+48555223224">+48 555 223 224</a>
-               </li>
-            </ul>
-         </div>
-         <div class="tpoffcanvas__input">
-            <div class="tpoffcanvas__input-title">
-               <h4>Get UPdate</h4>
-            </div>
-            <form action="#">
-               <div class="p-relative">
-                  <input type="text" placeholder="Enter mail">
-                  <button>
-                     <i class="fas fa-paper-plane"></i>
-                  </button>
-               </div>
-            </form>
-         </div>
-         <div class="tpoffcanvas__social">
-            <div class="social-icon">
-               <a href="#"><i class="fab fa-twitter"></i></a>
-               <a href="#"><i class="fab fa-instagram"></i></a>
-               <a href="#"><i class="fab fa-facebook-f"></i></a>
-               <a href="#"><i class="fab fa-pinterest-p"></i></a>
-            </div>
-         </div>
-      </div>
-   </div>
-   <div class="body-overlay"></div>
-   <!-- tp-offcanvus-area-end -->
+        <!-- back to top start -->
+        <div class="back-to-top-wrapper">
+            <button id="back_to_top" type="button" class="back-to-top-btn">
+                <svg width="12" height="7" viewBox="0 0 12 7" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M11 6L6 1L1 6"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                    ></path>
+                </svg>
+            </button>
+        </div>
+        <!-- back to top end -->
 
-   <header>
-        <!-- header area start -->
-        <div
-            id="header-sticky"
-            class="tp-header-area tp-header-tranparent tp-header-style-4 tp-onepage-header background-bg tp-header-style-5">
-            <div class="container custom-container-3">
-                <div class="row align-items-center navbar-background-color">
-                    <div class="col-xl-2 col-lg-4 col-6">
-                        <div class="tp-header-logo">
-                            <a href="index.html"><img src="images/logo-white.png" alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="col-xl-8 d-none d-xl-block">
-                        <div class="tp-header-menu">
-                            <nav class="tp-main-menu-content">
-                                <ul class="tp-onepage-menu">
-                                    <li class="has-dropdown-2">
-                                        <a href="index.html">Home</a>
-                                    </li>
-
-                                    <li class="has-dropdown-2">
-                                        <a href="about.html">About Us</a>
-                                    </li>
-
-                                    <li class="has-dropdown-2">
-                                        <a href="services.html">Services</a>
-                                    </li>
-
-                                    <li class="has-dropdown-2">
-                                        <a href="projects.html">Project</a>
-                                    </li>
-
-                                    <li class="has-dropdown-2">
-                                        <a href="gallery.html">Gallery</a>
-                                    </li>
-
-                                    <li class="has-dropdown-2">
-                                        <a href="blog.html">Blog</a>
-                                    </li>
-                                    <li class="has-dropdown-2">
-                                        <a class="active" href="contact.html">Contact</a>
-                                    </li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-                    <div class="col-xl-2 col-lg-8 col-6">
-                        <div class="tp-header-right d-flex align-items-center justify-content-end">
-                           
-                            <div class="tp-header-bar">
-                                <button class="tp-menu-bar"><i class="fa-solid fa-bars"></i></button>
+        <!-- search popup start -->
+        <div class="search__popup d-none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xxl-12">
+                        <div class="search__wrapper">
+                            <div class="search__top d-flex justify-content-between align-items-center">
+                                <div class="search__logo">
+                                    <a href="index.html">
+                                        <img src="images/logo-white.png" alt="" />
+                                    </a>
+                                </div>
+                                <div class="search__close">
+                                    <button type="button" class="search__close-btn search-close-btn">
+                                        <svg
+                                            width="18"
+                                            height="18"
+                                            viewBox="0 0 18 18"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M17 1L1 17"
+                                                stroke="currentColor"
+                                                stroke-width="1.5"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            ></path>
+                                            <path
+                                                d="M1 1L17 17"
+                                                stroke="currentColor"
+                                                stroke-width="1.5"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            ></path>
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="search__form">
+                                <form action="#">
+                                    <div class="search__input">
+                                        <input
+                                            class="search-input-field"
+                                            type="text"
+                                            placeholder="Type here to search..."
+                                        />
+                                        <span class="search-focus-border"></span>
+                                        <button type="submit">
+                                            <svg
+                                                width="20"
+                                                height="20"
+                                                viewBox="0 0 20 20"
+                                                fill="none"
+                                                xmlns="http://www.w3.org/2000/svg"
+                                            >
+                                                <path
+                                                    d="M9.55 18.1C14.272 18.1 18.1 14.272 18.1 9.55C18.1 4.82797 14.272 1 9.55 1C4.82797 1 1 4.82797 1 9.55C1 14.272 4.82797 18.1 9.55 18.1Z"
+                                                    stroke="currentColor"
+                                                    stroke-width="1.5"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                ></path>
+                                                <path
+                                                    d="M19.0002 19.0002L17.2002 17.2002"
+                                                    stroke="currentColor"
+                                                    stroke-width="1.5"
+                                                    stroke-linecap="round"
+                                                    stroke-linejoin="round"
+                                                ></path>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- header area end -->
+        <!-- search popup end -->
 
-
-   </header>
-
-<div id="smooth-wrapper" style="inset: 0px; width: 100%; height: 100%; position: fixed; overflow: hidden;">
-      <div id="smooth-content" style="translate: none; rotate: none; scale: none; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); box-sizing: border-box; width: 100%; overflow: visible;">
-
-         <main>
-
-            <!-- breadcrumb area start -->
-             <div class="breadcrumb__pt">
-               <div class="breadcrumb__area breadcrumb__overlay breadcrumb__height p-relative fix" data-background="images/breadcurmb.jpg">
-                  <div class="container">
-                     <div class="row">
-                        <div class="col-xxl-12">
-                           <div class="breadcrumb__content z-index">
-                              <div class="breadcrumb__section-title-box mb-20">
-                                 <h3 class="breadcrumb__title tp-split-text tp-split-in-right">Contact Us</h3>
-                              </div>
-                              <div class="breadcrumb__list">
-                                 <span><a href="index.html">Home</a></span>
-                                 <span class="dvdr"><i class="fa-solid fa-angle-right"></i></span>
-                                 <span>Contact</span>
-                              </div>
-                           </div>
+        <!-- tp-offcanvus-area-start -->
+        <div class="tpoffcanvas-area">
+            <div class="tpoffcanvas">
+                <div class="tpoffcanvas__close-btn">
+                    <button class="close-btn"><i class="fal fa-times"></i></button>
+                </div>
+                <div class="tpoffcanvas__logo">
+                    <a href="index.html">
+                        <img src="images/logo-white.png" alt="" />
+                    </a>
+                </div>
+                <div class="tpoffcanvas__title">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima incidunt eaque ab cumque, porro
+                        maxime autem sed.
+                    </p>
+                </div>
+                <div class="tp-main-menu-mobile d-xl-none"></div>
+                <div class="tpoffcanvas__contact-info">
+                    <div class="tpoffcanvas__contact-title">
+                        <h5>Contact us</h5>
+                    </div>
+                    <ul>
+                        <li>
+                            <i class="fa-light fa-location-dot"></i>
+                            <a href="https://www.google.com/maps/@23.8223586,90.3661283,15z" target="_blank"
+                                >Melbone st, Australia, Ny 12099</a
+                            >
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:solaredge@gmail.com">themepure@gmail.com</a>
+                        </li>
+                        <li>
+                            <i class="fal fa-phone-alt"></i>
+                            <a href="tel:+48555223224">+48 555 223 224</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tpoffcanvas__input">
+                    <div class="tpoffcanvas__input-title">
+                        <h4>Get UPdate</h4>
+                    </div>
+                    <form action="#">
+                        <div class="p-relative">
+                            <input type="text" placeholder="Enter mail" />
+                            <button>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
                         </div>
-                     </div>
-                  </div>
-               </div>
+                    </form>
+                </div>
+                <div class="tpoffcanvas__social">
+                    <div class="social-icon">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
             </div>
-            <!-- breadcrumb area end -->
-      
-            <!-- form area start -->
-            <div class="tp-form-area pt-145 pb-150">
-               <div class="container">
-                  <div class="tp-form-top pb-100">
-                     <div class="row"> 
-                        <div class="col-xl-8 col-lg-8 mb-50">
-                           <div class="tp-form-box tp-form-box-style-2">
-                              <h4 class="tp-section-title pb-60">Enter You Personal Details</h4>
-                              <form id="contact-form" action="assets/mail.php" method="POST">
-                                 <div class="row">
-                                    <div class="col-xl-6 col-lg-6 mb-30">
-                                       <div class="tp-form-input-box">
-                                          <input name="name" type="text" placeholder="First name">
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 mb-30">
-                                       <div class="tp-form-input-box">
-                                          <input name="email" type="email" placeholder="Your Email">
-                                       </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 mb-30">
-                                       <div class="tp-form-input-box">
-                                          <input name="phone" type="text" placeholder="Phone">
-                                       </div>
-                                    </div>                     
-                                    <div class="col-xl-6 col-lg-6 mb-30">
-                                       <div class="tp-form-input-box">
-                                          <input name="address" type="text" placeholder="Address">
-                                       </div>
-                                    </div>                     
-                                    <div class="col-xl-12 col-lg-12 mb-30">
-                                       <div class="tp-form-textarea-box">
-                                          <textarea name="message" placeholder="Messege"></textarea>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <button class="tp-btn-theme black-bg" type="submit"><span>Send a messege</span></button>
-                                 <p class="ajax-response"></p>
-                              </form>
-                           </div>                   
-                        </div>
-                        <div class="col-xl-4 col-lg-4 mb-50">
-                           <div class="tp-contact-box">
-                              <h4 class="tp-section-title pb-10">Get in touch </h4>
-                              <p class="pb-25">It is a long established fact that a reader will be distrol acted bioiiy desig the rea dablea contentIt is a long established fact that a reader will be </p>
-                              <ul>
-                                 <li>
-                                    <div class="tp-contact-item d-flex align-items-center">
-                                       <div class="tp-contact-icon-2">
-                                          <span>
-                                             <svg width="15" height="21" viewBox="0 0 15 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M6.5625 20.0312C4.53125 17.4922 0 11.4375 0 8C0 3.85938 3.32031 0.5 7.5 0.5C11.6406 0.5 15 3.85938 15 8C15 11.4375 10.4297 17.4922 8.39844 20.0312C7.92969 20.6172 7.03125 20.6172 6.5625 20.0312ZM7.5 10.5C8.86719 10.5 10 9.40625 10 8C10 6.63281 8.86719 5.5 7.5 5.5C6.09375 5.5 5 6.63281 5 8C5 9.40625 6.09375 10.5 7.5 10.5Z" fill="currentcolor"></path>
-                                             </svg>
-                                          </span>
-                                       </div>
-                                       <div class="tp-contact-content">
-                                          <h6>Address</h6>
-                                          <a href="https://www.google.com/maps/place/Cumberland+House,+SK,+Canada/@53.6729773,-103.7836571,8z/data=!4m15!1m8!3m7!1s0x4b0d03d337cc6ad9:0x9968b72aa2438fa5!2sCanada!3b1!8m2!3d56.130366!4d-106.346771!16zL20vMGQwNjBn!3m5!1s0x52f917b0cc93e6c1:0x44da1470d37ba724!8m2!3d53.958266!4d-102.267444!16zL20vMDZteWx5?entry=ttu" target="_blank">Dhaka 102, utl 1216, road 45 house
-                                             shantighar rahuta, 1213</a>
-                                       </div>
-                                    </div>
-                                 </li>
-                                 <li>
-                                    <div class="tp-contact-item d-flex align-items-center">
-                                       <div class="tp-contact-icon-2">
-                                          <span>
-                                             <svg width="20" height="15" viewBox="0 0 20 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M18.125 0C19.1406 0 20 0.859375 20 1.875C20 2.5 19.6875 3.04688 19.2188 3.39844L10.7422 9.76562C10.2734 10.1172 9.6875 10.1172 9.21875 9.76562L0.742188 3.39844C0.273438 3.04688 0 2.5 0 1.875C0 0.859375 0.820312 0 1.875 0H18.125ZM8.47656 10.7812C9.375 11.4453 10.5859 11.4453 11.4844 10.7812L20 4.375V12.5C20 13.9062 18.8672 15 17.5 15H2.5C1.09375 15 0 13.9062 0 12.5V4.375L8.47656 10.7812Z" fill="currentcolor"></path>
-                                             </svg>
-                                          </span>
-                                       </div>
-                                       <div class="tp-contact-content">
-                                          <h6>Email Address</h6>
-                                          <a href="mailto:ijmnhhasan000@yourmail.com">ijmnhhasan000@yourmail.com</a>
-                                       </div>
-                                    </div>
-                                 </li>
-                                 <li>
-                                    <div class="tp-contact-item d-flex align-items-center">
-                                       <div class="tp-contact-icon-2">
-                                          <span>
-                                             <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M19.9609 15.6172L19.0234 19.5625C18.9062 20.1484 18.4375 20.5391 17.8516 20.5391C8.00781 20.5 0 12.4922 0 2.64844C0 2.0625 0.351562 1.59375 0.9375 1.47656L4.88281 0.539062C5.42969 0.421875 6.01562 0.734375 6.25 1.24219L8.08594 5.5C8.28125 6.00781 8.16406 6.59375 7.73438 6.90625L5.625 8.625C6.95312 11.3203 9.14062 13.5078 11.875 14.8359L13.5938 12.7266C13.9062 12.3359 14.4922 12.1797 15 12.375L19.2578 14.2109C19.7656 14.4844 20.0781 15.0703 19.9609 15.6172Z" fill="currentcolor"></path>
-                                             </svg>
-                                          </span>
-                                       </div>
-                                       <div class="tp-contact-content">
-                                          <h6>Phone number</h6>
-                                          <a href="tel:0000000000000">0000-0000-00-000</a>
-                                       </div>
-                                    </div>
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-12">
-                        <div class="tp-map-box">
-                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d146513.05509247648!2d73.19133525789097!3d54.98596156928781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43aafde2f601090b%3A0x5eefc33861a69b1a!2z4KaT4Kau4Ka44KeN4KaVLCBPbXNrIE9ibGFzdCwg4Kaw4Ka-4Ka24Ka_4Kav4Ka84Ka-!5e0!3m2!1sbn!2sbd!4v1689181288902!5m2!1sbn!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                           </iframe>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-      
-            <!-- form area end -->
+        </div>
+        <div class="body-overlay"></div>
+        <!-- tp-offcanvus-area-end -->
 
-            <!-- brand area start -->
-            <div class="tp-brand-area black-bg pt-100 fix pb-100">
-               <div class="container custom-container-2">
-                  <div class="row">
-                     <div class="col-12">
-                        <div class="tp-brand-wrapper">
-                           <div class="swiper-container tp-brand-active swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events">
-                              <div class="swiper-wrapper" id="swiper-wrapper-5361aef1ff13d8a3" aria-live="off" style="transform: translate3d(-2208px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="1" role="group" aria-label="1 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-2.png" alt="">
-                                    </div>
-                                 </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="2" role="group" aria-label="2 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-3.png" alt="">
-                                    </div>
-                                 </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="3" role="group" aria-label="3 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-4.png" alt="">
-                                    </div>
-                                 </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" role="group" aria-label="4 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-5.png" alt="">
-                                    </div>
-                                 </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5" role="group" aria-label="5 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-6.png" alt="">
-                                    </div>
-                                 </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="6" role="group" aria-label="6 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-2.png" alt="">
-                                    </div>
-                                 </div>
-                                 <div class="swiper-slide" data-swiper-slide-index="0" role="group" aria-label="7 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-1.png" alt="">
-                                    </div>
-                                 </div>
-                                 <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1" role="group" aria-label="8 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-2.png" alt="">
-                                    </div>
-                                 </div>
-                                 <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="2" role="group" aria-label="9 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-3.png" alt="">
-                                    </div>
-                                 </div>
-                                 <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="3" role="group" aria-label="10 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-4.png" alt="">
-                                    </div>
-                                 </div>
-                                 <div class="swiper-slide" data-swiper-slide-index="4" role="group" aria-label="11 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-5.png" alt="">
-                                    </div>
-                                 </div>
-                                 <div class="swiper-slide" data-swiper-slide-index="5" role="group" aria-label="12 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-6.png" alt="">
-                                    </div>
-                                 </div>
-                                 <div class="swiper-slide" data-swiper-slide-index="6" role="group" aria-label="13 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-2.png" alt="">
-                                    </div>
-                                 </div>
-                              <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" role="group" aria-label="14 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-1.png" alt="">
-                                    </div>
-                                 </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev" data-swiper-slide-index="1" role="group" aria-label="15 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-2.png" alt="">
-                                    </div>
-                                 </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="2" role="group" aria-label="16 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-3.png" alt="">
-                                    </div>
-                                 </div><div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next" data-swiper-slide-index="3" role="group" aria-label="17 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-4.png" alt="">
-                                    </div>
-                                 </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="4" role="group" aria-label="18 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-5.png" alt="">
-                                    </div>
-                                 </div><div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="5" role="group" aria-label="19 / 19" style="width: 246px; margin-right: 30px;">
-                                    <div class="tp-brand-item text-center">
-                                       <img src="assets/img/brand/brand-2-6.png" alt="">
-                                    </div>
-                                 </div></div>
-                           <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+        <header>
+            <!-- header area start -->
+            <div
+                id="header-sticky"
+                class="tp-header-area tp-header-tranparent tp-header-style-4 tp-onepage-header background-bg tp-header-style-5"
+            >
+                <div class="container custom-container-3">
+                    <div class="row align-items-center navbar-background-color">
+                        <div class="col-xl-2 col-lg-4 col-6">
+                            <div class="tp-header-logo">
+                                <a href="index.html"><img src="images/logo-white.png" alt="" /></a>
+                            </div>
                         </div>
-                     </div>
-                  </div>
-               </div>
+                        <div class="col-xl-8 d-none d-xl-block">
+                            <div class="tp-header-menu">
+                                <nav class="tp-main-menu-content">
+                                    <ul class="tp-onepage-menu">
+                                        <li class="has-dropdown-2">
+                                            <a href="index.html">Home</a>
+                                        </li>
+
+                                        <li class="has-dropdown-2">
+                                            <a href="about.html">About Us</a>
+                                        </li>
+
+                                        <li class="has-dropdown-2">
+                                            <a href="services.html">Services</a>
+                                        </li>
+
+                                        <li class="has-dropdown-2">
+                                            <a href="projects.html">Project</a>
+                                        </li>
+
+                                        <li class="has-dropdown-2">
+                                            <a href="gallery.html">Gallery</a>
+                                        </li>
+
+                                        <li class="has-dropdown-2">
+                                            <a href="blog.html">Blog</a>
+                                        </li>
+                                        <li class="has-dropdown-2">
+                                            <a class="active" href="contact.html">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-8 col-6">
+                            <div class="tp-header-right d-flex align-items-center justify-content-end">
+                                <div class="tp-header-bar">
+                                    <button class="tp-menu-bar"><i class="fa-solid fa-bars"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- brand area end -->
-         </main>
+            <!-- header area end -->
+        </header>
+
+        <div id="smooth-wrapper" style="inset: 0px; width: 100%; height: 100%; position: fixed; overflow: hidden">
+            <div
+                id="smooth-content"
+                style="
+                    translate: none;
+                    rotate: none;
+                    scale: none;
+                    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+                    box-sizing: border-box;
+                    width: 100%;
+                    overflow: visible;
+                "
+            >
+                <main>
+                    <!-- breadcrumb area start -->
+                    <div class="breadcrumb__pt">
+                        <div
+                            class="breadcrumb__area breadcrumb__overlay breadcrumb__height p-relative fix"
+                            data-background="images/breadcurmb.jpg"
+                        >
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-xxl-12">
+                                        <div class="breadcrumb__content z-index">
+                                            <div class="breadcrumb__section-title-box mb-20">
+                                                <h3 class="breadcrumb__title tp-split-text tp-split-in-right">
+                                                    Contact Us
+                                                </h3>
+                                            </div>
+                                            <div class="breadcrumb__list">
+                                                <span><a href="index.html">Home</a></span>
+                                                <span class="dvdr"><i class="fa-solid fa-angle-right"></i></span>
+                                                <span>Contact</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- breadcrumb area end -->
+
+                    <!-- form area start -->
+                    <div class="tp-form-area pt-145 pb-150">
+                        <div class="container">
+                            <div class="tp-form-top pb-100">
+                                <div class="row">
+                                    <div class="col-xl-8 col-lg-8 mb-50">
+                                        <div class="tp-form-box tp-form-box-style-2">
+                                            <h4 class="tp-section-title pb-60">Enter You Personal Details</h4>
+                                            <form id="contact-form" action="assets/mail.php" method="POST">
+                                                <div class="row">
+                                                    <div class="col-xl-6 col-lg-6 mb-30">
+                                                        <div class="tp-form-input-box">
+                                                            <input name="name" type="text" placeholder="First name" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 mb-30">
+                                                        <div class="tp-form-input-box">
+                                                            <input name="email" type="email" placeholder="Your Email" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 mb-30">
+                                                        <div class="tp-form-input-box">
+                                                            <input name="phone" type="text" placeholder="Phone" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-6 col-lg-6 mb-30">
+                                                        <div class="tp-form-input-box">
+                                                            <input name="address" type="text" placeholder="Address" />
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xl-12 col-lg-12 mb-30">
+                                                        <div class="tp-form-textarea-box">
+                                                            <textarea name="message" placeholder="Messege"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button class="tp-btn-theme black-bg" type="submit">
+                                                    <span>Send a messege</span>
+                                                </button>
+                                                <p class="ajax-response"></p>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 mb-50">
+                                        <div class="tp-contact-box">
+                                            <h4 class="tp-section-title pb-10">Get in touch</h4>
+                                            <p class="pb-25">
+                                                It is a long established fact that a reader will be distrol acted bioiiy
+                                                desig the rea dablea contentIt is a long established fact that a reader
+                                                will be
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <div class="tp-contact-item d-flex align-items-center">
+                                                        <div class="tp-contact-icon-2">
+                                                            <span>
+                                                                <svg
+                                                                    width="15"
+                                                                    height="21"
+                                                                    viewBox="0 0 15 21"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M6.5625 20.0312C4.53125 17.4922 0 11.4375 0 8C0 3.85938 3.32031 0.5 7.5 0.5C11.6406 0.5 15 3.85938 15 8C15 11.4375 10.4297 17.4922 8.39844 20.0312C7.92969 20.6172 7.03125 20.6172 6.5625 20.0312ZM7.5 10.5C8.86719 10.5 10 9.40625 10 8C10 6.63281 8.86719 5.5 7.5 5.5C6.09375 5.5 5 6.63281 5 8C5 9.40625 6.09375 10.5 7.5 10.5Z"
+                                                                        fill="currentcolor"
+                                                                    ></path>
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                        <div class="tp-contact-content">
+                                                            <h6>Address</h6>
+                                                            <a
+                                                                href="https://www.google.com/maps/place/Cumberland+House,+SK,+Canada/@53.6729773,-103.7836571,8z/data=!4m15!1m8!3m7!1s0x4b0d03d337cc6ad9:0x9968b72aa2438fa5!2sCanada!3b1!8m2!3d56.130366!4d-106.346771!16zL20vMGQwNjBn!3m5!1s0x52f917b0cc93e6c1:0x44da1470d37ba724!8m2!3d53.958266!4d-102.267444!16zL20vMDZteWx5?entry=ttu"
+                                                                target="_blank"
+                                                                >Dhaka 102, utl 1216, road 45 house shantighar rahuta,
+                                                                1213</a
+                                                            >
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="tp-contact-item d-flex align-items-center">
+                                                        <div class="tp-contact-icon-2">
+                                                            <span>
+                                                                <svg
+                                                                    width="20"
+                                                                    height="15"
+                                                                    viewBox="0 0 20 15"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M18.125 0C19.1406 0 20 0.859375 20 1.875C20 2.5 19.6875 3.04688 19.2188 3.39844L10.7422 9.76562C10.2734 10.1172 9.6875 10.1172 9.21875 9.76562L0.742188 3.39844C0.273438 3.04688 0 2.5 0 1.875C0 0.859375 0.820312 0 1.875 0H18.125ZM8.47656 10.7812C9.375 11.4453 10.5859 11.4453 11.4844 10.7812L20 4.375V12.5C20 13.9062 18.8672 15 17.5 15H2.5C1.09375 15 0 13.9062 0 12.5V4.375L8.47656 10.7812Z"
+                                                                        fill="currentcolor"
+                                                                    ></path>
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                        <div class="tp-contact-content">
+                                                            <h6>Email Address</h6>
+                                                            <a href="mailto:ijmnhhasan000@yourmail.com"
+                                                                >ijmnhhasan000@yourmail.com</a
+                                                            >
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="tp-contact-item d-flex align-items-center">
+                                                        <div class="tp-contact-icon-2">
+                                                            <span>
+                                                                <svg
+                                                                    width="21"
+                                                                    height="21"
+                                                                    viewBox="0 0 21 21"
+                                                                    fill="none"
+                                                                    xmlns="http://www.w3.org/2000/svg"
+                                                                >
+                                                                    <path
+                                                                        d="M19.9609 15.6172L19.0234 19.5625C18.9062 20.1484 18.4375 20.5391 17.8516 20.5391C8.00781 20.5 0 12.4922 0 2.64844C0 2.0625 0.351562 1.59375 0.9375 1.47656L4.88281 0.539062C5.42969 0.421875 6.01562 0.734375 6.25 1.24219L8.08594 5.5C8.28125 6.00781 8.16406 6.59375 7.73438 6.90625L5.625 8.625C6.95312 11.3203 9.14062 13.5078 11.875 14.8359L13.5938 12.7266C13.9062 12.3359 14.4922 12.1797 15 12.375L19.2578 14.2109C19.7656 14.4844 20.0781 15.0703 19.9609 15.6172Z"
+                                                                        fill="currentcolor"
+                                                                    ></path>
+                                                                </svg>
+                                                            </span>
+                                                        </div>
+                                                        <div class="tp-contact-content">
+                                                            <h6>Phone number</h6>
+                                                            <a href="tel:0000000000000">0000-0000-00-000</a>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="tp-map-box">
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d146513.05509247648!2d73.19133525789097!3d54.98596156928781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43aafde2f601090b%3A0x5eefc33861a69b1a!2z4KaT4Kau4Ka44KeN4KaVLCBPbXNrIE9ibGFzdCwg4Kaw4Ka-4Ka24Ka_4Kav4Ka84Ka-!5e0!3m2!1sbn!2sbd!4v1689181288902!5m2!1sbn!2sbd"
+                                            width="600"
+                                            height="450"
+                                            style="border: 0"
+                                            allowfullscreen=""
+                                            loading="lazy"
+                                            referrerpolicy="no-referrer-when-downgrade"
+                                        >
+                                        </iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- form area end -->
+
+                    <!-- brand area start -->
+                    <div class="tp-brand-area black-bg pt-100 fix pb-100">
+                        <div class="container custom-container-2">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="tp-brand-wrapper">
+                                        <div
+                                            class="swiper-container tp-brand-active swiper-container-initialized swiper-container-horizontal swiper-container-pointer-events"
+                                        >
+                                            <div
+                                                class="swiper-wrapper"
+                                                id="swiper-wrapper-5361aef1ff13d8a3"
+                                                aria-live="off"
+                                                style="
+                                                    transform: translate3d(-2208px, 0px, 0px);
+                                                    transition-duration: 0ms;
+                                                "
+                                            >
+                                                <div
+                                                    class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+                                                    data-swiper-slide-index="1"
+                                                    role="group"
+                                                    aria-label="1 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-2.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                                    data-swiper-slide-index="2"
+                                                    role="group"
+                                                    aria-label="2 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-3.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next"
+                                                    data-swiper-slide-index="3"
+                                                    role="group"
+                                                    aria-label="3 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-4.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide swiper-slide-duplicate"
+                                                    data-swiper-slide-index="4"
+                                                    role="group"
+                                                    aria-label="4 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-5.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide swiper-slide-duplicate"
+                                                    data-swiper-slide-index="5"
+                                                    role="group"
+                                                    aria-label="5 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-6.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide swiper-slide-duplicate"
+                                                    data-swiper-slide-index="6"
+                                                    role="group"
+                                                    aria-label="6 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-2.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide"
+                                                    data-swiper-slide-index="0"
+                                                    role="group"
+                                                    aria-label="7 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-1.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide swiper-slide-prev"
+                                                    data-swiper-slide-index="1"
+                                                    role="group"
+                                                    aria-label="8 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-2.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide swiper-slide-active"
+                                                    data-swiper-slide-index="2"
+                                                    role="group"
+                                                    aria-label="9 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-3.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide swiper-slide-next"
+                                                    data-swiper-slide-index="3"
+                                                    role="group"
+                                                    aria-label="10 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-4.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide"
+                                                    data-swiper-slide-index="4"
+                                                    role="group"
+                                                    aria-label="11 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-5.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide"
+                                                    data-swiper-slide-index="5"
+                                                    role="group"
+                                                    aria-label="12 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-6.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide"
+                                                    data-swiper-slide-index="6"
+                                                    role="group"
+                                                    aria-label="13 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-2.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide swiper-slide-duplicate"
+                                                    data-swiper-slide-index="0"
+                                                    role="group"
+                                                    aria-label="14 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-1.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+                                                    data-swiper-slide-index="1"
+                                                    role="group"
+                                                    aria-label="15 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-2.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                                    data-swiper-slide-index="2"
+                                                    role="group"
+                                                    aria-label="16 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-3.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-next"
+                                                    data-swiper-slide-index="3"
+                                                    role="group"
+                                                    aria-label="17 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-4.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide swiper-slide-duplicate"
+                                                    data-swiper-slide-index="4"
+                                                    role="group"
+                                                    aria-label="18 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-5.png" alt="" />
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="swiper-slide swiper-slide-duplicate"
+                                                    data-swiper-slide-index="5"
+                                                    role="group"
+                                                    aria-label="19 / 19"
+                                                    style="width: 246px; margin-right: 30px"
+                                                >
+                                                    <div class="tp-brand-item text-center">
+                                                        <img src="assets/img/brand/brand-2-6.png" alt="" />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <span
+                                                class="swiper-notification"
+                                                aria-live="assertive"
+                                                aria-atomic="true"
+                                            ></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- brand area end -->
+                </main>
 
                 <footer>
                     <!-- footer area start -->
@@ -468,8 +718,9 @@
                                         </div>
                                         <div class="tp-footer-text pb-5">
                                             <p>
-                                                Corporate business typically refers to large-scale enterp mansola it
-                                                organizat enterprises or organizat
+                                                Entrust Designs is a Bengaluru-based interior studio delivering
+                                                thoughtful design, detailed planning, and seamless execution from
+                                                concept to completion.
                                             </p>
                                         </div>
                                     </div>
@@ -483,10 +734,11 @@
                                         <h4 class="tp-footer-title">Pages</h4>
                                         <div class="tp-footer-list">
                                             <ul>
-                                                <li><a href="#">About Us</a></li>
-
-                                                <li><a href="#">Services</a></li>
-                                                <li><a href="#">Project</a></li>
+                                                <li><a href="about.html">About Us</a></li>
+                                                <li><a href="services.html">Services</a></li>
+                                                <li><a href="projects.html">Projects</a></li>
+                                                <li><a href="Process-page.html">Our Process</a></li>
+                                                <li><a href="contact.html">Contact</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -503,16 +755,19 @@
                                                 <ul>
                                                     <li>
                                                         <a
-                                                            href="https://www.google.com/maps/place/United+States/@21.2541411,-83.1622716,7.17z/data=!4m6!3m5!1s0x54eab584e432360b:0x1c3bb99243deb742!8m2!3d37.09024!4d-95.712891!16zL20vMDljN3cw?entry=ttu"
-                                                            >1901 Thornridge Cir. <br />
-                                                            Shiloh 81063</a
+                                                            href="https://www.google.com/maps/place/Bengaluru,+Karnataka,+India/"
                                                         >
+                                                            Bengaluru, Karnataka <br />
+                                                            India
+                                                        </a>
                                                     </li>
                                                     <li>
-                                                        <a href="tel:201555-0124"> (201) 555-0124</a>
+                                                        <a href="tel:+919900000000"> +91 99000 00000</a>
                                                     </li>
                                                     <li>
-                                                        <a href="mailto:abggcd@gmail.com"> abggcd@gmail.com</a>
+                                                        <a href="mailto:info@entrustdesigns.com">
+                                                            info@entrustdesigns.com</a
+                                                        >
                                                     </li>
                                                 </ul>
                                             </div>
@@ -529,8 +784,8 @@
                                             <h4 class="tp-footer-title">Newsletter</h4>
                                             <div class="tp-footer-text pb-10">
                                                 <p>
-                                                    Lorem Ipsum is simply dummy text the printing and typesetting
-                                                    industry
+                                                    Subscribe for design insights, project updates, and interior
+                                                    inspiration.
                                                 </p>
                                             </div>
                                             <div class="tp-footer-input-box">
@@ -568,8 +823,13 @@
                             <div class="row">
                                 <div class="col-12 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s">
                                     <div class="tp-copyright-left text-center">
-                                       <p>© <script>document.write(new Date().getFullYear());</script> Entrust Designs. All Rights Reserved.</p>
-
+                                        <p>
+                                            ©
+                                            <script>
+                                                document.write(new Date().getFullYear());
+                                            </script>
+                                            Entrust Designs. All Rights Reserved.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -577,35 +837,31 @@
                     </div>
                     <!-- copyright area end -->
                 </footer>
+            </div>
+        </div>
 
-      </div>
-   </div>
-   
-
-   <!-- JS here -->
-   <script src="js/jquery.js"></script>
-   <script src="js/three.js"></script>
-   <script src="js/gsap.js"></script>
-   <script src="js/gsap-scroll-to-plugin.js"></script>
-   <script src="js/gsap-scroll-trigger.js"></script>
-   <script src="js/gsap-scroll-smoother.js"></script>
-   <script src="js/gsap-split-text.js"></script>
-   <script src="js/hover-effect.umd.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/bootstrap-bundle.js"></script>
-   <script src="js/ajax-form.js"></script>
-   <script src="js/imagesloaded-pkgd.js"></script>
-   <script src="js/isotope-pkgd.js"></script>
-   <script src="js/jarallax.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/nice-select.js"></script>
-   <script src="js/purecounter.js"></script>
-   <script src="js/range-slider.js"></script>
-   <script src="js/wow.js"></script>
-   <script src="js/slick.js"></script>
-   <script src="js/swiper-bundle.js"></script>
-   <script src="js/main.js"></script>
-
-
-
-</body></html>
+        <!-- JS here -->
+        <script src="js/jquery.js"></script>
+        <script src="js/three.js"></script>
+        <script src="js/gsap.js"></script>
+        <script src="js/gsap-scroll-to-plugin.js"></script>
+        <script src="js/gsap-scroll-trigger.js"></script>
+        <script src="js/gsap-scroll-smoother.js"></script>
+        <script src="js/gsap-split-text.js"></script>
+        <script src="js/hover-effect.umd.js"></script>
+        <script src="js/waypoints.js"></script>
+        <script src="js/bootstrap-bundle.js"></script>
+        <script src="js/ajax-form.js"></script>
+        <script src="js/imagesloaded-pkgd.js"></script>
+        <script src="js/isotope-pkgd.js"></script>
+        <script src="js/jarallax.js"></script>
+        <script src="js/magnific-popup.js"></script>
+        <script src="js/nice-select.js"></script>
+        <script src="js/purecounter.js"></script>
+        <script src="js/range-slider.js"></script>
+        <script src="js/wow.js"></script>
+        <script src="js/slick.js"></script>
+        <script src="js/swiper-bundle.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
