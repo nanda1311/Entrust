@@ -2684,7 +2684,7 @@ div.demo img {
 
 }
 .breadcrumb__height {
-  height: 336px;
+  height: 500px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2695,7 +2695,7 @@ div.demo img {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .breadcrumb__height {
-    height: 300px;
+    height: 350px;
   }
 }
 .breadcrumb__overlay {
@@ -9523,12 +9523,13 @@ body .ui-tooltip {
 .tp-slider-3-wrapper .swiper-slide-active .tp-slider-3-title-box {
   opacity: 1;
   transform: translateY(0px);
-  transition: all 2500ms ease;
+  transition: all 1600ms ease;
 }
+
 .tp-slider-3-wrapper .swiper-slide-active .tp-slider-3-content {
   opacity: 1;
   transform: translateY(0px);
-  transition: all 2500ms ease;
+  transition: all 1600ms ease;
 }
 
 .tp-slider-dots {
@@ -16848,6 +16849,23 @@ p.checkout-coupon input[type=text]:focus {
 }
 .tp-error-content .tp-btn-black-sm {
   padding: 0 23px;
+}
+.breadcrumb__title {
+    font-weight: 700;
+    font-size: clamp(28px, 5vw, 48px);
+    text-transform: capitalize;
+    color: var(--tp-common-white);
+    margin-bottom: 0px;
+    line-height: 1.2;
+}
+.breadcrumb__content{
+
+  text-align: center;
+
+
+}
+.tp-service-thumb img {
+    cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */
