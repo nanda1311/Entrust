@@ -16992,3 +16992,7 @@ body.mfp-open {
 .margin_btn{
   margin-bottom: 120px !important;
 }
+.text_aling_item_center{
+  display: flex;
+  justify-content: center;
+}
