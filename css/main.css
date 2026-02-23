@@ -12197,6 +12197,7 @@ body .ui-tooltip {
 }
 .tp-hover-distort-img {
   object-fit: cover;
+  border-radius: 15px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .tp-hover-distort-img {
@@ -16887,7 +16888,7 @@ p.checkout-coupon input[type=text]:focus {
 .tp-service-thumb {
     position: relative;
     overflow: hidden;
-    border-radius: 16px;
+    border-radius: 10px;
 }
 
 /* Image style */
@@ -16909,11 +16910,7 @@ p.checkout-coupon input[type=text]:focus {
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
 }
 
-/* Hover shadow */
-.tp-service-item:hover {
-    box-shadow: 0 20px 50px rgba(0,0,0,0.15);
-    transform: translateY(-6px);
-}
+
 /* ===== FORCE TRUE FULLSCREEN POPUP ===== */
 
 html.mfp-open,
@@ -16988,4 +16985,7 @@ body.mfp-open {
     right: 30px !important;
 }
 
-
+.padding_styling_testimonil{
+  padding-bottom: 100px !important;
+    padding-top: 100px !important;
+}
