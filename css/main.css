@@ -1147,7 +1147,7 @@ div.demo img {
   padding: 0 61px;
   height: 70px;
   line-height: 70px;
-  border-radius: 5px;
+  border-radius: 15px !important;
 }
 .tp-btn-theme.height {
   height: 64px;
@@ -1290,6 +1290,7 @@ div.demo img {
   border: 1px solid var(--tp-common-black);
   position: relative;
   z-index: 1;
+  border-radius: 15px;
 }
 .tp-btn-border-lg span svg {
   position: absolute;
@@ -7325,7 +7326,7 @@ body .ui-tooltip {
   height: 100%;
   line-height: 0;
   border-radius: 15px;
-  background-color: var(--tp-common-white);
+  background-color: #9a8e6124;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
   .tp-blog-item {
@@ -7415,9 +7416,9 @@ body .ui-tooltip {
 }
 .tp-blog-title {
   margin-right: 50px;
-  font-size: 28px;
+  font-size: 22px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.4;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
@@ -11328,6 +11329,7 @@ body .ui-tooltip {
   visibility: hidden;
   background-size: cover;
   background-color: var(--tp-common-white);
+  border-radius: 15px;
 }
 .tp-feature-item.active::after {
   opacity: 1;
@@ -14381,14 +14383,15 @@ body .ui-tooltip {
 .tp-form-box-style-2 .tp-form-input-box input {
   border: none;
   background-color: #F8F8F8;
-  border: 1px solid #E0E2E3;
+  border: 1px solid #010a0e63;
+border-radius: 15px;
 }
 .tp-form-box-style-2 .tp-form-input-box input:focus {
   border-color: var(--tp-theme-1);
 }
 .tp-form-box-style-2 .tp-form-textarea-box textarea {
   background-color: #F8F8F8;
-  border: 1px solid #E0E2E3;
+ border: 1px solid #010a0e63;
 }
 .tp-form-box-style-2 .tp-form-textarea-box textarea:focus {
   border-color: var(--tp-theme-1);
