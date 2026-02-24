@@ -7344,6 +7344,7 @@ body .ui-tooltip {
   height: 100%;
   flex: 0 0 auto;
 }
+
 @media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
   .tp-blog-thumb {
     width: 100%;
@@ -7847,6 +7848,7 @@ body .ui-tooltip {
 .tp-blog-style-3 .tp-blog-thumb {
   flex: auto;
   margin-right: 0;
+  border-radius: 15px;
 }
 .tp-blog-style-3 .tp-blog-thumb img {
   transform: scale(1.04) translateX(-1.5%);
@@ -10377,6 +10379,7 @@ body .ui-tooltip {
 }
 .tp-project-4-item.active .tp-project-4-content {
   transform: perspective(400px) rotateX(0deg);
+      border-radius: 15px;
 }
 .tp-project-4-item.active .tp-project-4-thumb::after {
   height: 100%;
@@ -10389,6 +10392,7 @@ body .ui-tooltip {
 }
 .tp-project-4-thumb {
   overflow: hidden;
+  border-radius: 15px;
 }
 .tp-project-4-thumb img {
   width: 100%;
@@ -10468,6 +10472,7 @@ body .ui-tooltip {
 }
 .tp-project-5-thumb {
   overflow: hidden;
+  border-radius: 15px;
 }
 .tp-project-5-thumb img {
   width: 100%;
@@ -10545,6 +10550,10 @@ body .ui-tooltip {
 }
 .tp-project-5-active .swiper-slide.swiper-slide-active .tp-project-5-content {
   transform: perspective(400px) rotateY(0deg);
+  border-radius: 15px;
+}
+.test-img img{
+  border-radius: 15px;
 }
 .tp-project-5-active .swiper-slide.swiper-slide-active .tp-project-5-item {
   transform: translateY(-70px);
