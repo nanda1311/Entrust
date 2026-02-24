@@ -145,7 +145,7 @@ li,
   --tp-common-black-2: #0D0D0D;
   --tp-grey-1: #F8F8F8;
   --tp-text-body: #54595F;
-  --tp-theme-1: #A6A182;
+  --tp-theme-1: #9a8e47;
 }
 
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
@@ -2109,7 +2109,7 @@ div.demo img {
 }
 
 .grey-bg {
-  background-color: var(--tp-grey-1);
+  background-color: #e0e0e0;
 }
 
 /*----------------------------------------*/
@@ -7321,6 +7321,7 @@ body .ui-tooltip {
 .tp-blog-item {
   height: 100%;
   line-height: 0;
+  border-radius: 15px;
   background-color: var(--tp-common-white);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), (max-width: 767px) {
@@ -10226,7 +10227,7 @@ body .ui-tooltip {
 .tp-project-dots .swiper-pagination-bullet::after {
   position: absolute;
   content: "";
-  top: 45%;
+  top: 50%;
   left: 50%;
   height: 100%;
   width: 100%;
@@ -16882,8 +16883,8 @@ p.checkout-coupon input[type=text]:focus {
 
 /* Gallery spacing */
 #service-one-page {
-    padding-top: 120px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 85px;
 }
 
 /* Remove extra inner spacing */
@@ -16996,8 +16997,8 @@ body.mfp-open {
 }
 
 .padding_styling_testimonil{
-  padding-bottom: 100px !important;
-    padding-top: 100px !important;
+  padding-bottom: 80px !important;
+    padding-top: 85px !important;
 }
 .margin_btn{
   margin-bottom: 120px !important;
