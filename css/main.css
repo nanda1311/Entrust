@@ -10223,7 +10223,7 @@ body .ui-tooltip {
 .tp-project-dots .swiper-pagination-bullet::after {
   position: absolute;
   content: "";
-  top: 45%;
+  top: 50%;
   left: 50%;
   height: 100%;
   width: 100%;
@@ -16872,8 +16872,8 @@ p.checkout-coupon input[type=text]:focus {
 
 /* Gallery spacing */
 #service-one-page {
-    padding-top: 120px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 85px;
 }
 
 /* Remove extra inner spacing */
@@ -16986,8 +16986,8 @@ body.mfp-open {
 }
 
 .padding_styling_testimonil{
-  padding-bottom: 100px !important;
-    padding-top: 100px !important;
+  padding-bottom: 80px !important;
+    padding-top: 85px !important;
 }
 .margin_btn{
   margin-bottom: 120px !important;
