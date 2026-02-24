@@ -1184,6 +1184,9 @@ div.demo img {
     position: relative;
     z-index: 1;
     text-align: center;
+    border-radius: 15px !important;
+    
+    
 }
 .tp-btn-black span svg {
   position: absolute;
@@ -11305,6 +11308,7 @@ body .ui-tooltip {
   padding-bottom: 35px;
   background-color: #0A0A0A;
   position: relative;
+  border: 0.5px solid #ffffff;
 }
 .tp-feature-item::after {
   content: "";
