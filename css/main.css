@@ -16996,3 +16996,8 @@ body.mfp-open {
   display: flex;
   justify-content: center;
 }
+.btn_background{
+  background-color: white !important;
+  color: black !important;
+  margin-left: 10px !important;
+}
