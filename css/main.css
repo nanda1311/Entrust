@@ -7342,6 +7342,7 @@ body .ui-tooltip {
   overflow: hidden;
   position: relative;
   height: 100%;
+  border-radius: 15px;
   flex: 0 0 auto;
 }
 
@@ -17004,4 +17005,9 @@ body.mfp-open {
 .text_aling_item_center{
   display: flex;
   justify-content: center;
+}
+.btn_background{
+  background-color: white !important;
+  color: black !important;
+  margin-left: 10px !important;
 }
