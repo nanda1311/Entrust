@@ -9995,6 +9995,7 @@ body .ui-tooltip {
   padding: 0 30px;
   margin: 0 12px;
   border: 1px solid var(--tp-theme-1);
+  border-radius: 15px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .tp-project-filter button {
@@ -17017,4 +17018,36 @@ body.mfp-open {
   background-color: white !important;
   color: black !important;
   margin-left: 10px !important;
+}
+
+.service-scroll {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    scroll-behavior: smooth;
+}
+
+.service-scroll::-webkit-scrollbar {
+    height: 6px;
+}
+
+.service-scroll::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 10px;
+}
+/* Fix Swiper inside container */
+.tp-service-active {
+    padding: 10px 0;
+}
+
+.tp-service-active .swiper-slide {
+    height: auto;
+}
+
+/* Optional: add small side spacing */
+.swiper {
+    overflow: hidden;
+}
+.tp-service-item {
+    border-radius: 10px;
+    overflow: hidden;
 }
