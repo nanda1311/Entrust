@@ -11310,6 +11310,7 @@ body .ui-tooltip {
   background-color: #0A0A0A;
   position: relative;
   border: 0.5px solid #ffffff;
+  border-radius: 15px;
 }
 .tp-feature-item::after {
   content: "";
